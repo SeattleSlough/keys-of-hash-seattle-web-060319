@@ -1,6 +1,7 @@
 require 'pry'
 class Hash
   def keys_of(*arguments)
+    binding.pry
     array = []
     self.each do |key, value|
     if value == arguments
