@@ -4,7 +4,7 @@ class Hash
      binding.pry
     .each do |key, value|
     if value == arguments
-      *key
+      #*key
     end
   end
 end
