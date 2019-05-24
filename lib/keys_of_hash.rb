@@ -5,7 +5,7 @@ class Hash
     .each do |key, value|
     if value == arguments
       *key
+    end
   end
-  
-  ## Finds matching values and returns an array of corresponding keys 
+end
 end
