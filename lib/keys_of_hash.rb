@@ -4,7 +4,7 @@ class Hash
     binding.pry
     array = []
     self.each do |key, value|
-    if value == arguments
+    if arguments
       array.push(key)
     end
   end
